@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Language" content="en-za" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="./style.css">
+<title>CHLOE ALMAZIEN SWEGGA PJ</title>
+
+</head>
+
+<body>
+<div id="page">
+        <div id="sidebar">
+                <img src="https://demilee06.github.io/SWEG-images/swegga.jpg" alt="swegga fashion logo" id="swegga">
+            </div>
+
+	<div id="main">
+                <div id="banner">
+                        <img src="https://demilee06.github.io/SWEG-images/delivery.gif" alt="the free delivery banner" >
+                    </div>
+                    <div id="navigation">
+                        <img src="https://demilee06.github.io/SWEG-images/links.gif" alt="the navigation bar" >
+                        <map name="navMap">
+                            <area shape="rect" coords="10,5,93,35" href="order.html" alt="home" target = "_blank" >
+                            <area shape="rect" coords="105,5,190,35" href="services.html" alt="Services" target="_blank">
+                            <area shape="rect" coords="205,5,300,35" href="products.html" alt="products" target="_blank">
+                            <area shape="rect" coords="310,5,440,35" href="orderStatus.html" alt="orderStatus" target="_blank">
+                            <area shape="rect" coords="450,5,555,35" href="contactUs.html" alt="contactUs" target="_blank">
+                        </map>
+                    </div>
+                    <div id="table">
+                        <form action="" name="orders" class="orders">
+                            <table>
+                                <p class="caption">Product Summary</p>
+                                <thead>
+                                    <tr>
+                                        <td>Description</td>
+                                        <td>Size</td>
+                                        <td>Colour</td>
+                                        <td>Price</td>
+                                        <td>Quantity</td>
+                                        <td>Total</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><a href="female.html">Female Ski Jackets</a></td>
+                                        <td>
+                                            <select id="color" onchange="changeColor(this)">
+                                                <option value="small">Small</option>
+                                                <option value="medium">Medium</option>
+                                                <option value="large">Large</option>
+                                              </select>
+                                        </td>
+                                        <td>
+                                                <select id="color" onchange="changeColor(this)">
+                                                  <option value="red">Red</option>
+                                                  <option value="pink">Pink</option>
+                                                  <option value="black">Black</option>
+                                                </select>
+                                        </td>
+                                        <td class = "alignRight" >150.95</td>
+                                        <td><input type="text" id="inp1" placeholder="2"></td>
+                                        <td class = "alignRight" >R <span id="femTot">301.90</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="male.html">Male Ski Jackets</a></td>
+                                        <td>
+                                            <select id="color" onchange="changeColor(this)">
+                                                <option value="small">Small</option>
+                                                <option value="medium">Medium</option>
+                                                <option value="large">Large</option>
+                                              </select>
+                                        </td>
+                                        <td>
+                                            <select id="color" onchange="changeColor(this)">
+                                                <option value="red">Red</option>
+                                                <option value="blue">Blue</option>
+                                                <option value="white">White</option>
+                                              </select>
+                                        </td>
+                                        <td>180.95</td>
+                                        <td><input type="text" id="inp2" placeholder="4"></td>
+                                        <td>R <span id="maleTot" class="alignRight">723.80</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td id="confirm" colspan="4">Click to confirm your order:</td>
+                                        <td><button id="button">Total Price</button></td>
+                                        <td>R<span id="total">1025.70</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </form>
+                    </div>
+                </div>
+                <footer>
+                    <div id="copyright">
+                    </div>
+                </footer>
+                    <p id ="copyright">© 2024 Swegga Fashion - Chloe Almazien</p>
+            </div>
+        
+
+	</div>
+        
+	  
+</div>
+</body>
+</html>
